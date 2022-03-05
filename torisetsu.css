@@ -1,0 +1,112 @@
+html, body, div
+   {margin:0;
+    padding: 0;
+    font-family: cursive;}
+.container{
+    background-image: linear-gradient(to right, #ff4800, #e07c39,#ffe600);
+}
+header{
+    height: 75px;
+    width: 100%;
+    background-image: linear-gradient(to right, #ff4800, #e07c39,#ffe600);
+    position: fixed;
+}
+.left{
+    float: left;
+    margin-top: 18px;
+    margin-right:70px;
+    padding-left: 65px;
+}   
+nav a, .fa{  
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: left;
+    padding-top:20px;
+    font-size:23px;   
+}
+nav a:hover{
+    color:rgba(255, 255, 255, 0.281);
+}
+/* akhir header*/
+/* container */
+.container{
+}
+.content-item{
+    margin:160px 0px 60px 60px;
+    background-color: #f1f1f1;
+    height: 1200%;
+    border-radius: 30px;
+    padding: 5px 20px 0px 20px;
+    width: 63%;
+    float: left;
+    box-shadow: 5px 0px #ff4800;
+
+}
+.content-item p{
+    font-size: 30px;
+}
+.content-item img{
+    border-radius: 15px;
+}
+.sidebar{
+    background-color: #f1f1f1;
+    margin:160px 15px 0px 0px;
+    border-radius: 30px;
+    height: 100%;
+    box-shadow: 5px 0px #ff4800;
+}
+.sidebar a {
+    display: block;
+    padding: 15px 0px 15px 0px;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    border-bottom: 2px solid #ffe600 ;
+    border-top: 2px solid #ffe600 ;
+    background-color: #ffe600;
+    margin: 15px 15px 10px 15px;
+    line-height: 15px;
+    padding-left: 15px;
+    box-shadow: 0px 7px #cfbd1b;
+}
+.sidebar a:active{
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+.sidebar a:hover{
+    color:#ff4800;
+}
+.bundar{
+    height: 15px;
+    border-radius: 10px;
+    width: 315px;
+}
+footer{   
+    font-family: serif;
+    background-color: rgb(43, 39, 39);
+    padding-top: 30px;
+    color: aliceblue;
+    height: 10%;
+}
+footer a{
+    float: left;
+    text-decoration: none;
+    color: white;
+}
+.Related{
+    display: block;
+    padding: 15px 0px 15px 0px;
+    margin-left: 5px;
+    border-bottom: 2px solid #ffe600 ;
+    border-top: 2px solid #ffe600 ;
+    background-color: #ffe600;
+    margin: 15px 15px 10px 15px;
+    line-height: 15px;
+    padding-left: 15px;
+    box-shadow: 0px 7px #cfbd1b;
+    border-radius: 30px;
+    width: 130px;
+}
